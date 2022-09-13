@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="content">
+        <div id="timer">00:00</div>
+        <div id="screen">
+          <div id="number"></div>
+          <p id="txtArea">시작하기</p>
+          <input id="input" type="number" value="" min="1">
+          <input id="submit-btn" type="button" value="확인" onclick="checkNum()">
+        </div>
+      </div>
+      <div id="button-wrap">
+        <button id="btn-start" onclick="startCount()">start</button>
+        <button id="btn-stop" onclick="stopCount()">stop</button>
+        <button id="btn-reset" onclick="resetCount()">reset</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/common.js" defer></script>
+  </body>
+</html>
